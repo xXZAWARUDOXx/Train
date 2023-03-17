@@ -43,7 +43,9 @@ public class MainController {
         System.out.println(TABLE_ITEMS);
     }
 
-    public void newLIne(ActionEvent actionEvent) {
+    public void newLine(ActionEvent actionEvent) {
+        AddLineController addLineController = new AddLineController(stage);
+        addLineController.showStage();
     }
 
     public void deleteLine(ActionEvent actionEvent) {
