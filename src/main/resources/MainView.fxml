@@ -15,7 +15,7 @@
             <Image url="@srtc-logo.png" />
          </image>
       </ImageView>
-      <Button layoutX="125.0" layoutY="30.0" mnemonicParsing="false" onAction="#newLine" prefHeight="26.0" prefWidth="88.0" text="New Line" />
+      <Button layoutX="125.0" layoutY="30.0" mnemonicParsing="false" onAction="#newLIne" prefHeight="26.0" prefWidth="88.0" text="New Line" />
       <Button layoutX="224.0" layoutY="30.0" mnemonicParsing="false" onAction="#deleteLine" prefHeight="26.0" prefWidth="100.0" text="Delete Line" />
       <Button layoutX="486.0" layoutY="30.0" mnemonicParsing="false" onAction="#importData" prefHeight="26.0" prefWidth="100.0" text="Data Import" />
       <TabPane layoutY="64.0" prefHeight="336.0" prefWidth="600.0" tabClosingPolicy="UNAVAILABLE">
